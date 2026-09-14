@@ -9,6 +9,7 @@ package TallerPOOMiniAppGestionDeProyectos.gestionproyectos;
  * @author anran
  */
 public class Tarea {
+    
     private String nombre;
     private String responsable;
     private String estado;
