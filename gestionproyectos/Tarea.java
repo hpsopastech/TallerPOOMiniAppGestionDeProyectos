@@ -88,7 +88,7 @@ public class Tarea {
     public void completar () {
         if (this.estado.equals(EN_PROGRESO) || this.estado.equals(PENDIENTE)){
             this.estado = TERMINADA;
-            System.out.println("La tarea: " + nombre + " de " + responsable + "a sido TERMINADA, BIEN HECHO");
+            System.out.println("La tarea: " + nombre + " de " + responsable + " a sido TERMINADA, BIEN HECHO");
         } else {
             System.out.println("Solo se pueden terminar Tareas que estan en progreso o pendientes");
         }
